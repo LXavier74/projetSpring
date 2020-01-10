@@ -1,0 +1,5 @@
+package projetSpringJava.services;
+
+public interface ICalculator {
+
+}

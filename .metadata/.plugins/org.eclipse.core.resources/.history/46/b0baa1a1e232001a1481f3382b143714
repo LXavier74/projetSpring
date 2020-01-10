@@ -1,0 +1,5 @@
+package newSpring4POE.dao;
+
+public interface IListeCoursesDAO {
+
+}

@@ -1,0 +1,5 @@
+package projetJavaSpring.services;
+
+public interface ILogger {
+
+}

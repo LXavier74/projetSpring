@@ -1,0 +1,5 @@
+package projetJavaSpring.imp;
+
+public class StderrLogger {
+
+}

@@ -1,0 +1,20 @@
+package spring004web.beans;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class Eleve {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "IDELEVE")
+	private Integer id;
+	private String nom;
+	private String prenom;
+	private Date date_naissance;
+	private String adresse;
+	private String sexe;
+}

@@ -1,0 +1,5 @@
+package newSpring4POE.bean;
+
+public class Course {
+
+}

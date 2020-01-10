@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;spring004web.beans&apos; to &apos;spring004web.bean&apos;&#x0D;&#x0A;- Original project: &apos;NewSpring4Ecole&apos;&#x0D;&#x0A;- Original element: &apos;NewSpring4Ecole/src/main/java/spring004web.beans&apos;&#x0D;&#x0A;- Renamed element: &apos;NewSpring4Ecole/src/main/java/spring004web.bean&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;spring004web.beans&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;spring004web.beans" name="spring004web.bean" qualified="false" references="true" stamp="1578664129021" textual="false" version="1.0"/>
+</session>

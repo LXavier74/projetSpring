@@ -1,0 +1,24 @@
+package spring004web.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import spring004web.bean.Eleve;
+import spring004web.dao.IEleveDAO;
+
+@Service
+public class ServiceListeEleves implements IServiceEleves {
+@Autowired
+private IEleveDAO dao;
+@Transactional(readOnly=true)
+public List<Eleve> rechercherCourses() {
+return dao.rechercherCourses();
+}
+public List<Eleve> rechercherEleves() {
+	// TODO Auto-generated method stub
+	return null;
+}
+}

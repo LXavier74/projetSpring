@@ -1,0 +1,14 @@
+package spring004web.controller;
+
+@Controller
+@RequestMapping(value="/afficherListeEleves")
+public class AfficherListeCoursesController {
+@Autowired
+private IServiceListeCourses service;
+@RequestMapping(method = RequestMethod.GET)
+public String afficher(ModelMap pModel) {
+final List<Course> lListeCourses = service.rechercherCourses();
+pModel.addAttribute("listeCourses", lListeCourses);
+return "listeCourses";
+}
+}

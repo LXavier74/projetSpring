@@ -1,0 +1,8 @@
+package newSpring4POE.dao;
+
+import java.util.List;
+
+import newSpring4POE.bean.Course;
+public interface IListeCoursesDAO {
+List<Course> rechercherCourses();
+}

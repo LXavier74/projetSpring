@@ -1,0 +1,67 @@
+Serveur HTTP = Web
+Requete HTTP -> Appache
+
+Verbes : 
+
+GET Appeler une URL / ORC -> ServeurWeb
+POST : Envoi un paquet ) une url/url -> ServeurWeb
+PUT
+DELETE
+PATCH
+
+
+Server Web/HTTP
+
+->Chemin relatif Virtuel (A)
+->Chemin Physique -> du disque du serveur
+
+
+A) www.cge.fr	/help/doc -> chemin relatif virtuel par rapport à la racine du site.
+nom du domaine
+du serveur web/site web
+
+186.155.255.25
+
+Serveur http/web
+chemin physique
+
+/.../apache/htdocs/www/poeweb
+
+-> images
+fleur.png
+-> js
+-> css
+-> template
+& html
+
+//localhost:8080/poeweb/index.html
+//localhost/poeweb/images/fleur.png
+
+code d'erreurs http
+
+200 : OK
+40* : Erreur
+
+404 : Page not found
+403 : Forbidden
+50* : securité exception
+
+
+	get post
+       <--
+Apache --> Navigateur, traduit le retour et affiche l'enveloppe
+	retour reponse
+
+<html> </html>
+
+on ouvre une balise et on ferme la balise
+HTML : Hypertext Market Language
+Enveloppe HTML
+
+
+Width: each (25%-22px) 
+padding :10px
+border p> solid
+box-sizing : border-box
+
+

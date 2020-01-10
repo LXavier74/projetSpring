@@ -1,0 +1,40 @@
+1) Load le driver JDBC correspondant au SGBDR -> JRE
+RegisterDriver
+class forName("nom du package, du driver, du SGBDR")
+
+2) On récupère un objet de type connection (Java.sql)
+
+3) Penser à fermer la connexion quand on en a plus besoin
+
+DAO : Data access object
+
+Business = Model = Beans = Entity
+
+
+MVC / Model View Controller
+
+
+
+JPA : 
+
+
+@Entity
+@Table (name="Client")
+
+Avant 
+
+
+Requete JPQL
+
+Select c from client c (Clone entity)
+Gestion de requêtes paramètrées
+requêtes nommées
+Requête liée entre entity
+One to Many
+Many to one
+
+
+Test de devis
+Creation de devis
+devisFindAll
+devisFindByClient

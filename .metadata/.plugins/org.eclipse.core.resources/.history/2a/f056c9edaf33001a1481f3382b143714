@@ -1,0 +1,56 @@
+package spring004web.beans;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class Eleve {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "IDELEVE")
+	private Integer id;
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getPrenom() {
+		return prenom;
+	}
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	public Date getDate_naissance() {
+		return date_naissance;
+	}
+	public void setDate_naissance(Date date_naissance) {
+		this.date_naissance = date_naissance;
+	}
+	public String getAdresse() {
+		return adresse;
+	}
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
+	}
+	public String getSexe() {
+		return sexe;
+	}
+	public void setSexe(String sexe) {
+		this.sexe = sexe;
+	}
+	private String nom;
+	private String prenom;
+	private Date date_naissance;
+	private String adresse;
+	private String sexe;
+}

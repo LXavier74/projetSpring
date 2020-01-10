@@ -1,0 +1,14 @@
+package newSpring4POE.services;
+
+import java.util.List;
+
+import newSpring4POE.bean.Course;
+
+public class ServiceListeCourses implements IServiceListeCourses {
+
+	public List<Course> rechercherCourses() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

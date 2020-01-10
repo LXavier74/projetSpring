@@ -1,0 +1,116 @@
+J2EE   --> JDR 1.8
+Nouveau framework
+
+N API 
+
+Serveur Servlet 
+Serveur Servlet SSP
+Serveur Bears
+Serveur messagerie
+
+=> Serveur SS2E
+
+TomCat
+
+
+
+Serveurs J2EE
+(TomCat)
+
+Conteneurs de serveurs 
+--> Serveur Servlet / SSP
+Web Application
+J2EE
+
+=> Site web Dynamique en jaune
+Serveur J2EE --> Client Web
+	     <-- HTTP
+
+(HTML-CSS-Bootstrap-CSS)
+
+App Web :  WAR 
+
+Déployer Maven
+
+
+--> SRC/Sources Java
+--> WebContent / Ressources web
+
+-> J.S.P : Java Servlet page
+-> CSS (HTML)
+-> Images
+-> Videos
+-> SS
+
++ Scriplet JAVA
+
+TOMCAT : Sécurité, Déploiement, Exécution, Communication
+
+Affichage et Saisie
+Navigation
+
+Sources pour communiquer <--> 
+HTTP Response : Objet Serveur J2EE
+HTTP  Request : Objet Client Web 
+HTTP Session
+
+
+HTTP...    --->
+HTTP Dispatcher -->  Redirection du contexte HTTP Response et HTTP Request --> Vers JSP une servlet
+
+
+Redirection
+Cookies -> FIchier textes
+	 --> Dans le répertoire temporaire du navigateur
+Hors Connexion
+    --> pLUS DE connection => Flux HTML --> Navigateur
+                 
+JSP --> Flux HTML
+
+-> <%@ Page language="java"...
+%> (entête JSP)
+
+-><%@ page import="package utilise autre que java.lang"
+%>
+
+-><%-- --%> -> Cpùùentaire scriplet (JSP)
+
+-><%= %> 
+Afficher en direct (navigateur) une information
+
+
+Scriplet Java
+<%
+=> uniquement du code Java
+%>
+
+ON a par défaut dans les JS plusieurs objets pour manipuler les JSP
+
+JSP -> J2EE -> out---
+		C'est le navigateur
+
+response -> instance de HTTP Response
+Request --> instance de HTTP Request
+Session -> Instance de HTTP Session
+
+TomCat
+JSPOM
+
+Variables globales
+Toutes les instances des servlets => 1 servlet à instancier
+
+HTTPSession=Navigateur de connecté
+
+
+JSTL 
+-> Remplacer les scriplets
+<%
+
+%>
+
+=> E.L
+
+Expression language 
+
+${...}
+

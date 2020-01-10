@@ -1,0 +1,65 @@
+Model : Bean / Business
+
+Entity (Représentation JAVA de nos tables SQL)
+
+DAO (Spring Repository)
+
+@Entity
+@Table
+
+
+@Repository  
+@ Persistence context
+
+___________________________________________________________________________________________
+											^
+Controller : dépend de la version et l'architecture de spring 				|
+											|
+@Service									@Autowired
+@Transactional									Service	|
+											|
+composant controller de Spring							@Autowired
+		web							Service service
+
+@Controlller
+@RequestMapping -- @Path variable
+		-- Request variable 	  |		Mapping pour les vues
+__________________________________________|________________________________________________
+Classes de la validation pour les formulaires
+@Valid
+@Pattern
+@NotEmpty
+
+Controller <--> Vues : Template HTML : pages JSP
+
+${E.L}
+taglib Form Spring <--  Formulaire et les validaitons (messages d'erreur et de validation de spring)
+taglib Message Spring (core) : Messages_fr.properties
+taglib JSTL : <c:
+
+
+Web.xml
+Definit le dispatcher servlet de Spring pour que les @Controller fonctionnent 
+
+Balises Servlet et servlet namming
+
+1) Définit le context global de spring -> context param et listener. 
+
+
+dispatcher-servlet.xml
+
+(Spring configurent XML)
+
+On définit tous les Beans
+Spring et aussi les contextes
+
+Context:component ...
+
+Fait les injections
+
+On définit le JPP de Spring
+
+ViewResolver
+/Vues
+JSP
+

@@ -1,0 +1,5 @@
+package newSpring4POE.services;
+
+public interface IServiceListeCourses {
+
+}

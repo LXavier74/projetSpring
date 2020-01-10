@@ -1,0 +1,5 @@
+package projetJavaSpring.tests;
+
+public class TestLoggerServices {
+
+}

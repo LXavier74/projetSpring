@@ -1,0 +1,5 @@
+package spring004web.beans;
+
+public class Eleve {
+
+}

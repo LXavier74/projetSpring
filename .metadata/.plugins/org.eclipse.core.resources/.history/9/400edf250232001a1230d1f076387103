@@ -1,0 +1,43 @@
+package projetSpringJava.tests;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import projetSpringJava.imp.FileLogger;
+import projetSpringJava.imp.StderrLogger;
+import projetSpringJava.services.ILogger;
+
+
+public class TestLoggerServices {
+@Before
+public void beforeEachTest() {
+System.err.println("====================");
+}
+@After
+public void afterEachTest() {
+}
+// use a logger
+void use(ILogger logger) {
+logger.log("Voila le r ́esultat = hello");
+}
+// Test StderrLogger
+@Test
+public void testStderrLogger() {
+// create the service
+StderrLogger logger = new StderrLogger();
+// start the service
+logger.start();
+// use the service
+use(logger);
+// stop the service
+logger.stop();
+}
+
+@Test
+public void testFileLogger() {
+FileLogger logger = new FileLogger("tmp/projetSpringJava.log");
+logger.start();
+use(logger);
+logger.stop();
+}
+}
